@@ -4,8 +4,8 @@ import Testimonial from "./Testimonial";
 export default function Testimonials() {
 	return (
 		<>
-			<section class="grid px-6 py-8 gap-6 bg-gray-800 text-gray-100">
-				<h1 class="text-3xl col-span-3 justify-self-center subpixel-antialiased">
+			<section class="grid px-36 py-8 gap-6 bg-gray-800 text-gray-100">
+				<h1 class="text-3xl md:col-span-3 sm:col-span-1 justify-self-center subpixel-antialiased">
 					<strong class="text-green-400 flex justify-center">
 						Testimonials
 					</strong>

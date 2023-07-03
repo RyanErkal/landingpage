@@ -3,7 +3,7 @@ import React from "react";
 export default function Faq() {
 	return (
 		<>
-			<section class="bg-gray-800 text-gray-100 px-6 py-8">
+			<section class="bg-gray-800 text-gray-100 px-36 py-8">
 				<div>
 					<h1 class="text-3xl col-span-3 pb-2 justify-self-center subpixel-antialiased">
 						<strong class="text-green-400 flex justify-center">

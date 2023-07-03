@@ -4,10 +4,10 @@ import Price from "./Price";
 export default function Pricing() {
 	return (
 		<>
-			<section class="px-6 py-8 bg-gray-800 text-gray-100">
+			<section class="px-36 py-8 bg-gray-800 text-gray-100">
 				<div class="flex flex-row justify-center">
-					<div class="w-full md:w-3/4 grid grid-cols-1 md:grid-cols-3 gap-6 mx-auto">
-						<h1 class="text-3xl col-span-3 justify-self-center subpixel-antialiased">
+					<div class="grid sm:grid-cols-1 md:grid-cols-3 gap-6">
+						<h1 class="text-3xl sm:grid-cols-1 md:col-span-3 justify-self-center subpixel-antialiased">
 							<strong class="text-green-400 flex justify-center">
 								Pricing
 							</strong>
