@@ -3,7 +3,7 @@ import React from "react";
 export default function Price(props) {
 	return (
 		<>
-			<div class="shadow p-5 rounded-3xl bg-green-50">
+			<div class="shadow p-6 rounded-3xl bg-green-50">
 				<p class="uppercase text-sm font-medium text-gray-600">
 					<strong class="text-xl">{props.package}</strong>
 				</p>

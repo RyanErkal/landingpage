@@ -3,14 +3,14 @@ import React from "react";
 export default function Contact() {
 	return (
 		<>
-			<section class="px-36 p-8 bg-gray-800 text-gray-100">
+			<section class="md:px-36 sm:px-24 p-8 bg-gray-800 text-gray-100">
 				<div>
 					<h1 class="text-3xl pb-8 col-span-3 justify-self-center subpixel-antialiased">
 						<strong class="text-green-400 flex justify-center">
 							Contact
 						</strong>
 					</h1>
-					<div class="flex justify-center align-middle px-36">
+					<div class="flex justify-center align-middle px-36 sm:px-12">
 						<div class="w-full mb-4 rounded-2xl">
 							<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
 								<input

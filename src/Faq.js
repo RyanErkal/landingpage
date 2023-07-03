@@ -3,21 +3,21 @@ import React from "react";
 export default function Faq() {
 	return (
 		<>
-			<section class="bg-gray-800 text-gray-100 px-36 py-8">
-				<div>
+			<section class="bg-gray-800 text-gray-100">
+				<div class="md:px-36 py-8 sm:px-24 flex flex-col justify-center align-middle text-center">
 					<h1 class="text-3xl col-span-3 pb-2 justify-self-center subpixel-antialiased">
 						<strong class="text-green-400 flex justify-center">
 							FAQs
 						</strong>
 					</h1>
-					<div class="flex justify-start mb-4 px-36">
+					<div class="mb-4">
 						<p>
 							<strong>What is the minimum age to join?</strong>
 							<br />
 							We only accept clients who are 18 years or older.
 						</p>
 					</div>
-					<div class="flex justify-start mb-4 px-36">
+					<div class="mb-4">
 						<p>
 							<strong>
 								What is the minimum duration of the coaching
@@ -31,7 +31,7 @@ export default function Faq() {
 							fully benefit from the coaching process.
 						</p>
 					</div>
-					<div class="flex justify-start mb-4 px-36">
+					<div class="mb-4">
 						<p>
 							<strong>Are results guaranteed?</strong>
 							<br />
@@ -41,7 +41,7 @@ export default function Faq() {
 							to implement them.
 						</p>
 					</div>
-					<div class="flex justify-start mb-4 px-36">
+					<div class="mb-4">
 						<p>
 							<strong>Do your work with women?</strong>
 							<br />
@@ -49,7 +49,7 @@ export default function Faq() {
 							competitors.
 						</p>
 					</div>
-					<div class="flex justify-start mb-4 px-36">
+					<div class="mb-4">
 						<p>
 							<strong>
 								Is there a cancellation notice period?
@@ -58,7 +58,7 @@ export default function Faq() {
 							We require a 1 week notice period for cancellations.
 						</p>
 					</div>
-					<div class="flex justify-start mb-4 px-36">
+					<div class="mb-4">
 						<p>
 							<strong>Is there a refund policy?</strong>
 							<br />

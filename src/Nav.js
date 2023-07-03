@@ -19,10 +19,10 @@ export default function Nav() {
 	return (
 		<>
 			<nav class="bg-gray-900 px-6 py-8 shadow-lg flex flex-row">
-				<span class="material-symbols-outlined text-gray-100 hover:text-green-400 basis-1/12 transition-all">
+				<span class="md:hidden material-symbols-outlined text-gray-100 hover:text-green-400 basis-1/12 transition-all">
 					menu
 				</span>
-				<div class="flex flex-row justify-end basis-11/12">
+				<div class="sm:hidden flex flex-row justify-end basis-11/12">
 					<h3 class="text-gray-100 mr-4 hover:scale-110 hover:font-bold hover:text-green-400 transition-all">
 						About
 					</h3>
