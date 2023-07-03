@@ -20,7 +20,7 @@ export default function Testimonial(props) {
 						{props.testimonial}
 					</p>
 					<img
-						class="object-contain w-84 shadow-md rounded-3xl mx-auto flex justify"
+						class="object-contain mt-2 w-84 shadow-md rounded-3xl mx-auto flex justify"
 						src={props.image}
 						alt={props.name}
 					/>

@@ -3,7 +3,7 @@ import React from "react";
 export default function Achievements() {
 	return (
 		<>
-			<section class="grid px-6 py-8gap-6">
+			<section class="grid px-6 py-8 gap-6 bg-gray-800 text-gray-100">
 				<div>
 					<h1 class="text-3xl col-span-3 pb-2 justify-self-center subpixel-antialiased">
 						<strong class="text-green-400 flex justify-center">
