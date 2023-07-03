@@ -5,6 +5,7 @@ import Pricing from "./Pricing";
 import Testimonials from "./Testimonials";
 import Contact from "./Contact";
 import Achievements from "./Achievements";
+import Faq from "./Faq";
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 			<Testimonials />
 			<Pricing />
 			<Contact />
+			<Faq />
 		</>
 	);
 }
