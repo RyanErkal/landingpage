@@ -12,7 +12,7 @@ export default function About() {
 					</h1>
 					<p class="flex justify-center col-span-1">
 						<strong>
-							Physique Transormation Specialists with a combined
+							Physique Transformation Specialists with a combined
 							total of 20+ years experience in the fitness
 							industry.
 						</strong>

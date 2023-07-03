@@ -31,9 +31,11 @@ export default function Price(props) {
 					{props.price}
 				</p>
 				<div class="mt-8">
-					<button class="bg-gray-400 hover:bg-green-200 hover:text-gray-600 px-3 py-2 rounded-xl w-full text-white">
-						Sign Up
-					</button>
+					<a href={props.link}>
+						<button class="bg-gray-400 hover:bg-green-200 hover:text-gray-600 px-3 py-2 rounded-xl w-full text-white">
+							Sign Up
+						</button>
+					</a>
 				</div>
 			</div>
 		</>

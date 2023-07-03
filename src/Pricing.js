@@ -21,6 +21,7 @@ export default function Pricing() {
 								"Supplement Advice",
 								"Monthly Zoom Call",
 							]}
+							link="https://buy.stripe.com/3cs4jp9Ws4JJ5OMbJf"
 						/>
 						<Price
 							package="Competitor"
@@ -31,6 +32,7 @@ export default function Pricing() {
 								"24/7 WhatsApp Support",
 								"PED Advice",
 							]}
+							link="https://buy.stripe.com/14k4jpc4A0ttb9600w"
 						/>
 						<Price
 							package="Mentorship"
@@ -41,6 +43,7 @@ export default function Pricing() {
 								"Access to Education Hub",
 								"Content Strategy",
 							]}
+							link="https://buy.stripe.com/6oE5nt0lS7VV6SQ00y"
 						/>
 					</div>
 				</div>
