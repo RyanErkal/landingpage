@@ -33,10 +33,13 @@ export default function Nav() {
 						Testimonials
 					</h3>
 					<h3 class="text-gray-100 mr-4 hover:scale-110 hover:font-bold hover:text-green-400 transition-all">
-						Pricing
+						Coaching Packages
 					</h3>
 					<h3 class="text-gray-100 mr-4 hover:scale-110 hover:font-bold hover:text-green-400 transition-all">
 						Contact
+					</h3>
+					<h3 class="text-gray-100 mr-4 hover:scale-110 hover:font-bold hover:text-green-400 transition-all">
+						FAQs
 					</h3>
 					{/* <button onClick={toggleDarkMode} id="dark-mode-toggle">
 						<span

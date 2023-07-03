@@ -9,7 +9,7 @@ export default function Pricing() {
 					<div class="grid sm:grid-cols-1 md:grid-cols-3 gap-6">
 						<h1 class="text-3xl sm:grid-cols-1 md:col-span-3 justify-self-center subpixel-antialiased">
 							<strong class="text-green-400 flex justify-center">
-								Pricing
+								Coaching Packages
 							</strong>
 						</h1>
 						<Price
