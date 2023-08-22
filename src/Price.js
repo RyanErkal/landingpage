@@ -3,17 +3,17 @@ import React from "react";
 export default function Price(props) {
 	return (
 		<>
-			<div class="group shadow p-6 rounded-3xl bg-green-50">
+			<div class="group shadow p-6 rounded-3xl hover:bg-green-100 bg-green-50">
 				<p class="uppercase text-sm font-medium text-gray-600">
 					<strong class="text-xl">{props.package}</strong>
 				</p>
 
-				<p class="group-hover:font-bold mt-4 font-medium text-gray-600">
+				<p class="1group-hover:font-bold mt-4 font-medium text-gray-600">
 					{props.package} package includes:
 				</p>
 
 				<div class="mt-4">
-					<ul class="group-hover:font-bold grid grid-cols-1 gap-4">
+					<ul class="1group-hover:font-bold grid grid-cols-1 gap-4">
 						{props.perks.map((perk) => (
 							<li class="inline-flex items-center text-gray-600">
 								<svg
@@ -27,12 +27,12 @@ export default function Price(props) {
 						))}
 					</ul>
 				</div>
-				<p class="group-hover:font-boldmt-4 text-xl text-gray-600 font-medium">
+				<p class="1group-hover:font-boldmt-4 text-xl text-gray-600 font-medium">
 					{props.price}
 				</p>
 				<div class="mt-8">
 					<a href={props.link}>
-						<button class="bg-gray-400 hover:bg-green-200 hover:text-gray-600 px-3 py-2 rounded-xl w-full text-white">
+						<button class="bg-gray-400 hover:bg-green-300 hover:text-gray-600 px-3 py-2 rounded-xl w-full text-white">
 							Sign Up
 						</button>
 					</a>
